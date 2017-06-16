@@ -8,4 +8,4 @@ cd ruby-install-0.6.0/
 sudo make install
 
 ruby-install -L
-ruby-install ruby 2.3.1
+ruby-install ruby 2.4.1
