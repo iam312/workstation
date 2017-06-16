@@ -9,3 +9,6 @@ cd /scripts
 ./install_tpm.sh
 ./install_antigen.sh
 ./install_dot_files.sh
+
+# install python 2.7.13
+source ~/dot_files/commonrc && pyenv install 2.7.13
