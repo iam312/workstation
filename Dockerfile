@@ -12,3 +12,4 @@ RUN useradd -ms /bin/zsh samil
 RUN echo 'samil ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER samil
 WORKDIR /home/samil
+VOLUME /home/samil
